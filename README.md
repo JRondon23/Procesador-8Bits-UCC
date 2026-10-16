@@ -17,8 +17,8 @@ El procesador está compuesto por 5 bloques fundamentales. El sistema es indivis
 | **1** | Rondon - Garelli | **Unidad de Control** | Opcode, Flags |
 | **2** | Maggi - Ludueña | **Unidad Aritmético-Lógica (ALU)** | Operandos, Selector ALU |
 | **3** | Lucio - Bergia | **Banco de Registros** | Resultado ALU, Control, Entrada |
-| **4** | *(A definir)* | **Memoria y Contador de Programa** | Salto, Flags |
-| **5** | *(A definir)* | **Entrada / Salida** | Datos, Señales de Control |
+| **4** | *Grosso-Sanchez-Tavia* | **Memoria y Contador de Programa** | Salto, Flags |
+| **5** | *Grosso-Sanchez-Tavia* | **Entrada / Salida** | Datos, Señales de Control |
 
 ---
 
