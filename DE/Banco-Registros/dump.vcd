@@ -1,0 +1,166 @@
+$date
+	Wed Oct 21 18:31:26 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_banco_registros $end
+$var wire 8 ! salida_b [7:0] $end
+$var wire 8 " salida_a [7:0] $end
+$var reg 1 # clk $end
+$var reg 8 $ dato_w [7:0] $end
+$var reg 1 % rst $end
+$var reg 2 & sel_a [1:0] $end
+$var reg 2 ' sel_b [1:0] $end
+$var reg 2 ( sel_w [1:0] $end
+$var reg 1 ) we $end
+$scope module dut $end
+$var wire 1 # clk $end
+$var wire 8 * dato_w [7:0] $end
+$var wire 1 % rst $end
+$var wire 8 + salida_a [7:0] $end
+$var wire 8 , salida_b [7:0] $end
+$var wire 2 - sel_a [1:0] $end
+$var wire 2 . sel_b [1:0] $end
+$var wire 2 / sel_w [1:0] $end
+$var wire 1 ) we $end
+$upscope $end
+$scope begin $ivl_for_loop0 $end
+$var integer 32 0 i [31:0] $end
+$upscope $end
+$upscope $end
+$scope module tb_banco_registros $end
+$scope module dut $end
+$var reg 8 1 \registros[0] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module tb_banco_registros $end
+$scope module dut $end
+$var reg 8 2 \registros[1] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module tb_banco_registros $end
+$scope module dut $end
+$var reg 8 3 \registros[2] [7:0] $end
+$upscope $end
+$upscope $end
+$scope module tb_banco_registros $end
+$scope module dut $end
+$var reg 8 4 \registros[3] [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx 4
+bx 3
+bx 2
+bx 1
+b100 0
+b0 /
+b0 .
+b0 -
+bx ,
+bx +
+b0 *
+0)
+b0 (
+b0 '
+b0 &
+1%
+b0 $
+0#
+bx "
+bx !
+$end
+#10000
+b0 4
+b0 3
+b0 2
+b0 1
+b0 "
+b0 +
+b0 !
+b0 ,
+1#
+#20000
+0#
+#30000
+1#
+0%
+#40000
+b10101010 $
+b10101010 *
+1)
+0#
+#50000
+b10101010 1
+b10101010 "
+b10101010 +
+b10101010 !
+b10101010 ,
+1#
+#60000
+b10111011 $
+b10111011 *
+b1 (
+b1 /
+0#
+#70000
+b10111011 2
+1#
+#80000
+b11001100 $
+b11001100 *
+b10 (
+b10 /
+0#
+#90000
+b11001100 3
+1#
+#100000
+0)
+0#
+#110000
+b10111011 !
+b10111011 ,
+b1 '
+b1 .
+1#
+#120000
+0#
+#130000
+1#
+#140000
+b11001100 "
+b11001100 +
+b10 &
+b10 -
+b11111111 $
+b11111111 *
+1)
+0#
+#150000
+b11111111 3
+b11111111 "
+b11111111 +
+1#
+#160000
+0)
+0#
+#170000
+1#
+#180000
+0#
+#190000
+1#
+#200000
+0#
+#210000
+1#
