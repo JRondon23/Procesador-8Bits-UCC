@@ -56,7 +56,7 @@ else if(opcode == 8 && inardo == 1) begin
 	//inardo
 	pe = 1;
 	wr = 1;
-	src = 0;
+	src = 2;
 	alu = 0;
 	ac = 0;
 	bc = 0;
