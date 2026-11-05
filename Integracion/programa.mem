@@ -1,0 +1,18 @@
+// Prueba de direcciones, no es el programa final de la catedra.
+// Codigos del Control actual: 1010 = BI, 1011 = BC.
+11000100 // 0: MOVI 1, R0
+10000001 // 1: IN R1. El PC espera mientras inardo = 0.
+00110001 // 2: ADD entre R0 y R1, destino R1.
+10010001 // 3: OUT R1
+10110110 // 4: BC a 6 si Zero = 1.
+10101111 // 5: BI a 15.
+10101111 // 6: BI a 15.
+00000000 // 7: AND R0, R0. Cero no es NOP.
+00000000 // 8
+00000000 // 9
+00000000 // 10
+00000000 // 11
+00000000 // 12
+00000000 // 13
+00000000 // 14
+10100000 // 15: BI a 0.
