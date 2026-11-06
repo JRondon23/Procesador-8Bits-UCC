@@ -39,29 +39,16 @@ else if(opcode == 4 || opcode == 5 || opcode == 6 ) begin
 	od = 0;
 end
 
-else if(opcode == 8 && inardo == 0) begin
-	//inardo
-	pe = 0;
-	wr = 1;
-	src = 2;
-	alu = 0;
-	ac = 0;
-	bc = 0;
-	bi = 0;
-	od = 0;
-	
-end
-
-else if(opcode == 8 && inardo == 1) begin
-	//inardo
-	pe = 1;
-	wr = 1;
-	src = 2;
-	alu = 0;
-	ac = 0;
-	bc = 0;
-	bi = 0;
-	od = 0;
+else if(opcode == 8) begin
+    // IN: escribir y avanzar solo cuando se recibe el byte completo.
+    pe = inardo;
+    wr = inardo;
+    src = 2'b10;
+    alu = 0;
+    ac = 0;
+    bc = 0;
+    bi = 0;
+    od = 0;
 end
 
 else if(opcode == 9) begin

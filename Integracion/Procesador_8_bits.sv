@@ -19,7 +19,7 @@ module Procesador_8_bits(
 
 	unidad_control u_control(
 		.opcode		(instruction[7:4]),
-		.inardo		(enter),
+		.inardo		(dato_listo),
 		.pe			(pe),
 		.wr			(wr),
 		.src			(src),
@@ -78,7 +78,7 @@ module Procesador_8_bits(
 		.opcode			(instruction[7:4]),
 		.pe				(pe),
 		.od				(od),
-		.dato_salida	(salida_reg_a),
+		.dato_salida	(salida_reg_b),
 		.dato_entrada	(entrada_usuario),
 		.dato_listo		(dato_listo),
 		.leds				(Outardo)
