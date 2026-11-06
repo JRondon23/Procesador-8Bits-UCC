@@ -1,0 +1,8 @@
+# Archivos generados por Quartus y Questa
+Integracion/db/
+Integracion/incremental_db/
+Integracion/output_files/
+Integracion/simulation/
+Integracion/*.qws
+Integracion/*_nativelink_simulation.rpt
+Integracion/*.bak
